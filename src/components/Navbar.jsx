@@ -26,7 +26,7 @@ function Navbar() {
 
   const list = () => (
     <Box
-      sx={{ width: 250 }}
+      sx={{ width: 250 , marginTop: '64px'}}
       role="presentation"
       onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
@@ -63,7 +63,7 @@ function Navbar() {
     <div>
         <div style={{display: 'flex', justifyContent: 'space-between', padding: '20px 20px'}}>
             {/*Add image with max width*/}
-            <img src={IIIT_logo} width={'100px'} />
+            <img src={IIIT_logo} width={'124px' } style={{margin : '20px'}} />
             <div onClick={toggleDrawer(true)} style={{display: 'flex', gap: '5px', alignItems: 'center', color: 'white'}}>
                 <Typography>MENU</Typography>
                 <IconButton >

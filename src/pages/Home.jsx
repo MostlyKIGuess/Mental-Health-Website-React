@@ -4,9 +4,10 @@ import Navbar from '../components/Navbar'
 
 function Home() {
     console.log("Bitch")
-  return (
+  return (  
     <div>
         <Navbar />
+        {/* <TemporaryDrawer/> */}
     </div>
   )
 }
